@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+    
+header{
+    height: 80px;
+}
+
+header > nav{
+    height:80px;
+}
+
+header > div{
+    float: left;
+}
+
+header > div > a > img{
+    width: 150px;
+    height: 70px;  
+    margin: 0 30px 0 80px;
+}
+    
+header > nav > ul > li{
+    list-style-type: none;
+    float: left;
+}
+    
+header > nav > ul > li > a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    height: 40px;
+    line-height: 40px;
+    margin: 20px 10px;
+}
+
+header > nav > ul > li > a:hover{
+    color: rgb(197, 2, 51);
+}
+
+header > nav > ul > li:last-child > a{
+    background-color: rgb(197, 2, 51);
+    color: white;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+        
+header > nav > ul > li:last-child > a:hover{
+    color: rgb(197, 2, 51);
+    border: solid rgb(197, 2, 51) 2px;
+    background-color: white;
+}
+
+main > section{
+    background-image:url(image/bg_header_catalogue.png);
+    padding: 120px 0;
+    color: white;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    background-size: 2000px;
+
+}
+
+header > nav > ul > li > a > ul
+
+
+
+header > nav > ul > li > a > ul{
+    display:block;
+    width:100px;
+    color:white;
+    text-decoration:none;
+    padding:5px;
+}
+
+header > nav > ul > li > a > ul > a:hover{
+    color:#FFD700;
+}
+
+menu > ul > li > ul{
+        display:none;
+}
+
+menu > ul > li:hover > ul{
+    display:block;
+}
+
+menu > li:hover > ul > li{
+    float:none;
+}
+
+menu > li > ul{
+    position:absolute;
+}
+
+menu{
+    height:50px;
+}
